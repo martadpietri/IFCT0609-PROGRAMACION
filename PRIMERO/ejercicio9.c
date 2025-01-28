@@ -16,6 +16,6 @@ int main(void)
     scanf("%f",&c1);
     y=(a1*c-a*c1)/(a1*b-a*b1);
     x=(c-b*y)/a;
-    printf("La solucion a este sistema de ecuaciones es x= %f e y= %f",x,y);
+    printf("La solucion a este sistema de ecuaciones es x=%f e y=%f",x,y);
     return 0;
 }

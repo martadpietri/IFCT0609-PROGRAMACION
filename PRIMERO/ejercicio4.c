@@ -13,6 +13,6 @@ int main(void)
     scanf("%d",&d);
     suma=a+b+c+d;
     promedio=(float)suma/4;
-    printf("La suma de los cuatro numeros es %d y la media es %.2f",suma,promedio);
+    printf("La suma de los cuatro numeros es %d y la media %.2f",suma,promedio);
     return 0;
 }

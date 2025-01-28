@@ -3,17 +3,17 @@ int main(void)
 {
     int cantcola,cantlimon,cantnaranja;
     float preciocola,precionaranja,preciolimon,totalcola,totalnaranja,totallimon;
-    printf("Precio cola:");
+    printf("Precio cola: ");
     scanf("%f",&preciocola);
-    printf("Cantidad de ventas de cola:");
+    printf("Cantidad de ventas de cola: ");
     scanf("%d",&cantcola);
     printf("Precio limon:");
     scanf("%f",&preciolimon);
-    printf("Cantidad de ventas de limon:");
+    printf("Cantidad de ventas de limon: ");
     scanf("%d",&cantlimon);
-    printf("Precio naranja:");
+    printf("Precio naranja: ");
     scanf("%f",&precionaranja);
-    printf("Cantidad de ventas de naranja:");
+    printf("Cantidad de ventas de naranja: ");
     scanf("%d",&cantnaranja);
     totalcola=preciocola*cantcola;
     totallimon=preciolimon*cantlimon;

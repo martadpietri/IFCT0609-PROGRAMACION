@@ -10,7 +10,7 @@ int main(void)
     scanf("%d",&b);
     resultado=a+b;
     printf("La suma de ambos números es: %d ", resultado);
-    /*hay que fijarse que después de cualquier sentancia hay que poner
-    PUNTO Y COMA*/
+    /*hay que fijarse que después de cualquier sentancia hay 
+    que poner PUNTO Y COMA*/
     return 0;
 }

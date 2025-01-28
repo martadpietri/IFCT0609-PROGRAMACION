@@ -5,13 +5,13 @@ int main(void)
     float precio,preciototal,preciofinal,preciodescuento,precioiva,dto;
     /*No se puede llamar a una variable de una manera que incluya el nombre de otra variable en medio.
     Ej. Si yo llame a una variable "dto", no puedo llamar a otra precioDTO*/
-    printf("Introduce el codigo (no mas de 6 cifras):");
+    printf("Introduce el codigo (no mas de 6 cifras): ");
     scanf("%d",&codigo);
-    printf("Introduce la cantidad:");
+    printf("Introduce la cantidad: ");
     scanf("%d",&cant);
-    printf("Introduce el descuento (en porcentaje):");
+    printf("Introduce el descuento (en porcentaje): ");
     scanf("%f",&dto);
-    printf("Introduce el precio:");
+    printf("Introduce el precio: ");
     scanf("%f",&precio);
     preciototal=cant*precio;
     preciodescuento=preciototal*(dto/100);

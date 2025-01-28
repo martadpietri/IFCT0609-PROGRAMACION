@@ -13,6 +13,6 @@ int main(void)
     suma=a+b;
     producto=c*d;
     printf("La suma de %d y %d es de %d",a,b,suma);
-    printf("\nEl producto de %d y %d es de %d",c,d,producto);
+    printf("\nEl producto de %d y %d es %d",c,d,producto);
     return 0;
 }

@@ -1,31 +1,32 @@
 #include<stdio.h>
+#include <string.h>
 int main(void)
 {
-    int num,bin,hex,i;
+    int num,bin,hex,i,resto,base;
     char opcion;
-    printf("Introduce numero:");
+    printf("Introduce numero: ");
     scanf("%d",&num);
-    printf("Binario (B) o Hexadecimal (H)");
+    printf("Binario (B) o Hexadecimal (H): ");
     scanf("%c",&opcion);
     opcion=getchar(); 
+    bin=0;
+    base=0;
     switch (opcion)
     {
     case 'B':
-        while (condition)
+        while (num>0)
         {
-            /* code */
+            resto=num%2;
+            num=bin+resto*((int)pow(10,(double)base));
+            base++;
+            num=num/2;
         }
-        
+        printf("El numero en binario es: %d", bin);
         break;
     
     case 'H':
         printf("hexa");
         break;
     }
-        /*Para obtener el binario de un número decimal, iremos 
-        dividiendo el numero entre 2. Si el resto de la división es impar, 
-    colocaremos un “1”, si es par, colocaremos un “0”. La división finaliza 
-cuando el resultado es 1. Se tendrán que imprimir los resultados en orden inverso.*/
-        
     return 0;
 }
